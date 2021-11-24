@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>hawks.api.EndToEndTesting</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-18 08:08:40 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:68]"><span>[1.1:68]</span> <span>E2E Testing</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">hawks/api/EndToEndTesting.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">End to End Testing for Rest Api using Karate</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:68]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">E2E</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:68]</span>
+                <span class="scenario-name">E2E Testing</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>4914</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:68]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:68]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">20:08:35.416 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:68]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = call read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2351</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">hawks.api.TokenGenerator</div>
+      </div>
+      <div class="time-cell passed">2335</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;hawks.api.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def email = dataGenerator.getEmail()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">150</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = dataGenerator.getPassword()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/adminRegistered&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request {&quot;email&quot;:#(email),&quot;password&quot;:#(password)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">51</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2111</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.5.0.call.0.10">20:08:36.380 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/adminRegistered
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 85
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;terryCremin@test.com&quot;,&quot;password&quot;:&quot;com.github.javafaker.FunnyName@2a235b8e&quot;}
+
+20:08:37.797 response time in milliseconds: 1414
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 19 Nov 2021 01:08:34 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 420
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;user&quot;:{&quot;email&quot;:&quot;terryCremin@test.com&quot;,&quot;password&quot;:&quot;$2a$10$rlXoyGI6PpyW4hYjiU/1e.GqnBhsSdZowSt70cvR2C.c9NpoYY7ki&quot;,&quot;created_at&quot;:&quot;2021-11-19 01:08:34&quot;,&quot;updated_at&quot;:&quot;2021-11-19 01:08:34&quot;,&quot;id&quot;:3415},&quot;token&quot;:{&quot;type&quot;:&quot;bearer&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10&quot;,&quot;refreshToken&quot;:null}}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.5.0.call.0.12">20:08:37.804 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;user&quot;: {
+      &quot;email&quot;: &quot;terryCremin@test.com&quot;,
+      &quot;password&quot;: &quot;$2a$10$rlXoyGI6PpyW4hYjiU/1e.GqnBhsSdZowSt70cvR2C.c9NpoYY7ki&quot;,
+      &quot;created_at&quot;: &quot;2021-11-19 01:08:34&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-19 01:08:34&quot;,
+      &quot;id&quot;: 3415
+    },
+    &quot;token&quot;: {
+      &quot;type&quot;: &quot;bearer&quot;,
+      &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10&quot;,
+      &quot;refreshToken&quot;: null
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.5.0.call">
+    <div class="step-container" id="1.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1.1:68]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.12">{
+    &quot;primaryPerson&quot;:{
+        &quot;email&quot; : &quot;abcadf@test.com&quot;,
+        &quot;title&quot;:&quot;Mr.&quot;,
+        &quot;firstName&quot;:&quot;Jack&quot;,
+        &quot;lastName&quot;:&quot;Ma&quot;,
+        &quot;gender&quot;:&quot;Male&quot;,
+        &quot;maritalStatus&quot;:&quot;Single&quot;,
+        &quot;employmentStatus&quot;:&quot;student&quot;,
+        &quot;dateOfBirth&quot;:&quot;1990-01-01&quot;,
+        &quot;languagePref&quot;:&quot;CH&quot;
+    },
+    &quot;primaryPersonMailingAddress&quot;:{
+        &quot;addressType&quot;:&quot;China&quot;,
+        &quot;addressLine1&quot;:&quot;123 No where&quot;,
+        &quot;city&quot;:&quot;Hong Kong&quot;,
+        &quot;state&quot;:&quot;China&quot;,
+        &quot;postalCode&quot;:&quot;12345&quot;,
+        &quot;countryCode&quot;:&quot;002&quot;
+    },
+    &quot;primaryPersonPhone&quot;:{
+        &quot;phoneNumber&quot;:&quot;1012023344&quot;,
+        &quot;phoneExtension&quot;:&quot;none&quot;,
+        &quot;phoneTime&quot;: &quot;night&quot;,
+        &quot;phoneType&quot;:&quot;mobile&quot;
+      
+    }
+      
+          
+    }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">861</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.45">20:08:37.822 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/user
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 486
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;primaryPerson&quot;:{&quot;email&quot;:&quot;abcadf@test.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Ma&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Single&quot;,&quot;employmentStatus&quot;:&quot;student&quot;,&quot;dateOfBirth&quot;:&quot;1990-01-01&quot;,&quot;languagePref&quot;:&quot;CH&quot;},&quot;primaryPersonMailingAddress&quot;:{&quot;addressType&quot;:&quot;China&quot;,&quot;addressLine1&quot;:&quot;123 No where&quot;,&quot;city&quot;:&quot;Hong Kong&quot;,&quot;state&quot;:&quot;China&quot;,&quot;postalCode&quot;:&quot;12345&quot;,&quot;countryCode&quot;:&quot;002&quot;},&quot;primaryPersonPhone&quot;:{&quot;phoneNumber&quot;:&quot;1012023344&quot;,&quot;phoneExtension&quot;:&quot;none&quot;,&quot;phoneTime&quot;:&quot;night&quot;,&quot;phoneType&quot;:&quot;mobile&quot;}}
+
+20:08:38.679 response time in milliseconds: 857
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 19 Nov 2021 01:08:35 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 323
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;account&quot;:{&quot;accountId&quot;:3416,&quot;createDate&quot;:&quot;2021-11-19 01:08:35&quot;},&quot;primaryPerson&quot;:{&quot;email&quot;:&quot;abcadf@test.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Ma&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Single&quot;,&quot;employmentStatus&quot;:&quot;student&quot;,&quot;dateOfBirth&quot;:&quot;1990-01-01&quot;,&quot;languagePref&quot;:&quot;CH&quot;}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.47">20:08:38.681 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 3416,
+      &quot;createDate&quot;: &quot;2021-11-19 01:08:35&quot;
+    },
+    &quot;primaryPerson&quot;: {
+      &quot;email&quot;: &quot;abcadf@test.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Ma&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Single&quot;,
+      &quot;employmentStatus&quot;: &quot;student&quot;,
+      &quot;dateOfBirth&quot;: &quot;1990-01-01&quot;,
+      &quot;languagePref&quot;: &quot;CH&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.meta.code == 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.49">
+      <div class="step-ref passed">49</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.meta.status == &#39;success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def accountId = response.data.account.accountId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print accountId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.51">20:08:38.693 [print] 3416 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/&#39; + accountId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">811</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.55">20:08:38.696 request:
+2 &gt; GET https://www.test-insurance.com/api/v1/user/3416
+2 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10
+2 &gt; Host: www.test-insurance.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+20:08:39.505 response time in milliseconds: 807
+2 &lt; 200
+2 &lt; Server: nginx/1.18.0 (Ubuntu)
+2 &lt; Date: Fri, 19 Nov 2021 01:08:36 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 1192
+2 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10&quot;,&quot;account&quot;:{&quot;accountId&quot;:3416,&quot;createDate&quot;:&quot;2021-11-19T01:08:35.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:3416,&quot;username&quot;:null,&quot;email&quot;:&quot;abcadf@test.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Ma&quot;,&quot;suffix&quot;:null,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Single&quot;,&quot;employmentStatus&quot;:&quot;student&quot;,&quot;dateOfBirth&quot;:&quot;1990-01-01T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;CH&quot;,&quot;password&quot;:null,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-19 01:08:35&quot;,&quot;updated_at&quot;:&quot;2021-11-19 01:08:35&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2711,&quot;personId&quot;:3416,&quot;addressType&quot;:&quot;China&quot;,&quot;addressLine1&quot;:&quot;123 No where&quot;,&quot;addressLine2&quot;:null,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Hong Kong&quot;,&quot;state&quot;:&quot;China&quot;,&quot;postalCode&quot;:&quot;12345&quot;,&quot;countryCode&quot;:&quot;002&quot;,&quot;created_at&quot;:&quot;2021-11-19 01:08:35&quot;,&quot;updated_at&quot;:&quot;2021-11-19 01:08:35&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:3416,&quot;emailAddress&quot;:&quot;abcadf@test.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:3416,&quot;phoneNumber&quot;:&quot;1012023344&quot;,&quot;phoneExtension&quot;:&quot;none&quot;,&quot;phoneTime&quot;:&quot;night&quot;,&quot;phoneType&quot;:&quot;mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.57">20:08:39.507 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 3416,
+      &quot;createDate&quot;: &quot;2021-11-19T01:08:35.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 3416,
+      &quot;username&quot;: null,
+      &quot;email&quot;: &quot;abcadf@test.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Ma&quot;,
+      &quot;suffix&quot;: null,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Single&quot;,
+      &quot;employmentStatus&quot;: &quot;student&quot;,
+      &quot;dateOfBirth&quot;: &quot;1990-01-01T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;CH&quot;,
+      &quot;password&quot;: null,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-19 01:08:35&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-19 01:08:35&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2711,
+      &quot;personId&quot;: 3416,
+      &quot;addressType&quot;: &quot;China&quot;,
+      &quot;addressLine1&quot;: &quot;123 No where&quot;,
+      &quot;addressLine2&quot;: null,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Hong Kong&quot;,
+      &quot;state&quot;: &quot;China&quot;,
+      &quot;postalCode&quot;: &quot;12345&quot;,
+      &quot;countryCode&quot;: &quot;002&quot;,
+      &quot;created_at&quot;: &quot;2021-11-19 01:08:35&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-19 01:08:35&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 3416,
+      &quot;emailAddress&quot;: &quot;abcadf@test.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 3416,
+      &quot;phoneNumber&quot;: &quot;1012023344&quot;,
+      &quot;phoneExtension&quot;: &quot;none&quot;,
+      &quot;phoneTime&quot;: &quot;night&quot;,
+      &quot;phoneType&quot;: &quot;mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/&#39; + accountId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">859</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.61">20:08:39.510 request:
+3 &gt; DELETE https://www.test-insurance.com/api/v1/user/3416
+3 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MTUsImlhdCI6MTYzNzI4NDExNH0.KoQjuqx633KPjLL4XRXRHFgPLLoWr4haH1cvuVfLk10
+3 &gt; Host: www.test-insurance.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+20:08:40.367 response time in milliseconds: 857
+3 &lt; 200
+3 &lt; Server: nginx/1.18.0 (Ubuntu)
+3 &lt; Date: Fri, 19 Nov 2021 01:08:37 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 76
+3 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:&quot;Record successfuly deleted&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.63">20:08:40.368 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: &quot;Record successfuly deleted&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data == &#39;Record successfuly deleted&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

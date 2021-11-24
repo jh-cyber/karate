@@ -1,0 +1,33 @@
+{
+    "primaryPerson":{
+        "email" : "",
+        "title":"Mr.",
+        "firstName":"Alex",
+        "lastName":"Great",
+        "gender":"Male",
+        "maritalStatus":"single",
+        "employmentStatus":"employed",
+        "dateOfBirth":"1990-12-01",
+        "languagePref":"en"
+    },
+    "primaryPersonMailingAddress":{
+        "addressType":"USA",
+        "addressLine1":"123 no where street",
+        "city":"Tysons",
+        "state":"VA",
+        "postalCode":"22044",
+        "countryCode":"001"
+    },
+    "primaryPersonPhone":{
+        "phoneNumber":"2021013344",
+        "phoneExtension":"none",
+        "phoneTime": "Day",
+        "phoneType":"mobile"
+
+    }
+
+    
+    }
+
+
+

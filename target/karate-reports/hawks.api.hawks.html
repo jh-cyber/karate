@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>hawks.api.hawks</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-22 09:44:49 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:30]"><span>[1:30]</span> <span>payload request scenario</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">hawks/api/hawks.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Hawks API testing with json body</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:30]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">json</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:30]</span>
+                <span class="scenario-name">payload request scenario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1314</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:30]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestJsonBody = read(&#39;body.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:44:48.194 &lt;&lt; lock released, cached callSingle: TokenGenerator.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">hawks.api.TokenGenerator</div>
+      </div>
+      <div class="time-cell passed">2261</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;hawks.api.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.4">21:44:45.873 karate.env system property was: null 
+21:44:45.885 &gt;&gt; lock acquired, begin callSingle: TokenGenerator.feature
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def email = dataGenerator.getEmail()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">189</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = dataGenerator.getPassword()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/adminRegistered&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request {&quot;email&quot;:#(email),&quot;password&quot;:#(password)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">57</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1982</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.10">21:44:46.812 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/adminRegistered
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 61
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;stevieHeathcote@test.com&quot;,&quot;password&quot;:&quot;Nick O&#39;Teen&quot;}
+
+21:44:48.185 response time in milliseconds: 1371
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Tue, 23 Nov 2021 02:44:47 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 424
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;user&quot;:{&quot;email&quot;:&quot;stevieHeathcote@test.com&quot;,&quot;password&quot;:&quot;$2a$10$pr.u5z8UH3DVkEgRXvGJte9ADIrdokBiaX2XvKhOjQsocacHcnJTS&quot;,&quot;created_at&quot;:&quot;2021-11-23 02:44:47&quot;,&quot;updated_at&quot;:&quot;2021-11-23 02:44:47&quot;,&quot;id&quot;:4678},&quot;token&quot;:{&quot;type&quot;:&quot;bearer&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQ2NzgsImlhdCI6MTYzNzYzNTQ4N30.6cKdvKH6qkyT5WuMJxBamUQPQLbD8j3-yC0TybuIy9U&quot;,&quot;refreshToken&quot;:null}}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.12">21:44:48.192 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;user&quot;: {
+      &quot;email&quot;: &quot;stevieHeathcote@test.com&quot;,
+      &quot;password&quot;: &quot;$2a$10$pr.u5z8UH3DVkEgRXvGJte9ADIrdokBiaX2XvKhOjQsocacHcnJTS&quot;,
+      &quot;created_at&quot;: &quot;2021-11-23 02:44:47&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-23 02:44:47&quot;,
+      &quot;id&quot;: 4678
+    },
+    &quot;token&quot;: {
+      &quot;type&quot;: &quot;bearer&quot;,
+      &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQ2NzgsImlhdCI6MTYzNzYzNTQ4N30.6cKdvKH6qkyT5WuMJxBamUQPQLbD8j3-yC0TybuIy9U&quot;,
+      &quot;refreshToken&quot;: null
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;hawks.api.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.email = dataGenerator.getValues().email</span>
+      </div>
+    </div>
+    <div class="time-cell passed">55</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.title = dataGenerator.getValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">40</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.firstName = dataGenerator.getValues().firstName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.lastName = dataGenerator.getValues().lastName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.gender = dataGenerator.getValues().gender</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.maritalStatus = dataGenerator.getValues().maritalStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.employmentStatus = dataGenerator.getValues().employmentStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.dateOfBirth = dataGenerator.getValues().dateOfBirth</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPerson.languagePref = dataGenerator.getValues().languagePref</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.addressType = dataGenerator.getValues().addressType</span>
+      </div>
+    </div>
+    <div class="time-cell passed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref bg-step">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.addressLine1 = dataGenerator.getValues().addressLine1</span>
+      </div>
+    </div>
+    <div class="time-cell passed">23</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref bg-step">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.city = dataGenerator.getValues().city</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.state = dataGenerator.getValues().state</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref bg-step">19</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.postalCode = dataGenerator.getValues().postalCode</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref bg-step">20</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonMailingAddress.countryCode = dataGenerator.getValues().countryCode</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref bg-step">21</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonPhone.phoneNumber = dataGenerator.getValues().phoneNumber</span>
+      </div>
+    </div>
+    <div class="time-cell passed">23</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref bg-step">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonPhone.phoneExtension = dataGenerator.getValues().phoneExtension</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref bg-step">23</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonPhone.phoneTime = dataGenerator.getValues().phoneTime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref bg-step">24</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestJsonBody.primaryPersonPhone.phoneType = dataGenerator.getValues().phoneType</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref bg-step">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request requestJsonBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print requestJsonBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">21:44:48.691 [print] {
+  &quot;primaryPerson&quot;: {
+    &quot;email&quot;: &quot;anitraAdams@test.com&quot;,
+    &quot;title&quot;: &quot;Direct Solutions Administrator&quot;,
+    &quot;firstName&quot;: &quot;Lillie&quot;,
+    &quot;lastName&quot;: &quot;Moen&quot;,
+    &quot;gender&quot;: &quot;Female&quot;,
+    &quot;maritalStatus&quot;: &quot;Divorced&quot;,
+    &quot;employmentStatus&quot;: &quot;Facilitator&quot;,
+    &quot;dateOfBirth&quot;: &quot;2021-11-22&quot;,
+    &quot;languagePref&quot;: &quot;com.github.javafaker.service.RandomService@399fba77&quot;
+  },
+  &quot;primaryPersonMailingAddress&quot;: {
+    &quot;addressType&quot;: &quot;Israel&quot;,
+    &quot;addressLine1&quot;: &quot;Apt. 949 0690 Billy Orchard, Jeremybury, WI 91907-1071&quot;,
+    &quot;city&quot;: &quot;South Willy&quot;,
+    &quot;state&quot;: &quot;Oklahoma&quot;,
+    &quot;postalCode&quot;: &quot;35315&quot;,
+    &quot;countryCode&quot;: &quot;MX&quot;
+  },
+  &quot;primaryPersonPhone&quot;: {
+    &quot;phoneNumber&quot;: &quot;(622) 958-8426&quot;,
+    &quot;phoneExtension&quot;: &quot;9855&quot;,
+    &quot;phoneTime&quot;: &quot;Europe/London&quot;,
+    &quot;phoneType&quot;: &quot;270.704.3485&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">812</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">21:44:48.693 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/user
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQ2NzgsImlhdCI6MTYzNzYzNTQ4N30.6cKdvKH6qkyT5WuMJxBamUQPQLbD8j3-yC0TybuIy9U
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 645
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;primaryPerson&quot;:{&quot;email&quot;:&quot;anitraAdams@test.com&quot;,&quot;title&quot;:&quot;Direct Solutions Administrator&quot;,&quot;firstName&quot;:&quot;Lillie&quot;,&quot;lastName&quot;:&quot;Moen&quot;,&quot;gender&quot;:&quot;Female&quot;,&quot;maritalStatus&quot;:&quot;Divorced&quot;,&quot;employmentStatus&quot;:&quot;Facilitator&quot;,&quot;dateOfBirth&quot;:&quot;2021-11-22&quot;,&quot;languagePref&quot;:&quot;com.github.javafaker.service.RandomService@399fba77&quot;},&quot;primaryPersonMailingAddress&quot;:{&quot;addressType&quot;:&quot;Israel&quot;,&quot;addressLine1&quot;:&quot;Apt. 949 0690 Billy Orchard, Jeremybury, WI 91907-1071&quot;,&quot;city&quot;:&quot;South Willy&quot;,&quot;state&quot;:&quot;Oklahoma&quot;,&quot;postalCode&quot;:&quot;35315&quot;,&quot;countryCode&quot;:&quot;MX&quot;},&quot;primaryPersonPhone&quot;:{&quot;phoneNumber&quot;:&quot;(622) 958-8426&quot;,&quot;phoneExtension&quot;:&quot;9855&quot;,&quot;phoneTime&quot;:&quot;Europe\/London&quot;,&quot;phoneType&quot;:&quot;270.704.3485&quot;}}
+
+21:44:49.502 response time in milliseconds: 808
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Tue, 23 Nov 2021 02:44:48 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 416
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;account&quot;:{&quot;accountId&quot;:4679,&quot;createDate&quot;:&quot;2021-11-23 02:44:48&quot;},&quot;primaryPerson&quot;:{&quot;email&quot;:&quot;anitraAdams@test.com&quot;,&quot;title&quot;:&quot;Direct Solutions Administrator&quot;,&quot;firstName&quot;:&quot;Lillie&quot;,&quot;lastName&quot;:&quot;Moen&quot;,&quot;gender&quot;:&quot;Female&quot;,&quot;maritalStatus&quot;:&quot;Divorced&quot;,&quot;employmentStatus&quot;:&quot;Facilitator&quot;,&quot;dateOfBirth&quot;:&quot;2021-11-22&quot;,&quot;languagePref&quot;:&quot;com.github.javafaker.service.RandomService@399fba77&quot;}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.37">21:44:49.503 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 4679,
+      &quot;createDate&quot;: &quot;2021-11-23 02:44:48&quot;
+    },
+    &quot;primaryPerson&quot;: {
+      &quot;email&quot;: &quot;anitraAdams@test.com&quot;,
+      &quot;title&quot;: &quot;Direct Solutions Administrator&quot;,
+      &quot;firstName&quot;: &quot;Lillie&quot;,
+      &quot;lastName&quot;: &quot;Moen&quot;,
+      &quot;gender&quot;: &quot;Female&quot;,
+      &quot;maritalStatus&quot;: &quot;Divorced&quot;,
+      &quot;employmentStatus&quot;: &quot;Facilitator&quot;,
+      &quot;dateOfBirth&quot;: &quot;2021-11-22&quot;,
+      &quot;languagePref&quot;: &quot;com.github.javafaker.service.RandomService@399fba77&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.meta.code == 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.meta.status == &#39;success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.primaryPerson.email == requestJsonBody.primaryPerson.email</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.account.accountId == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.primaryPerson.email == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.primaryPerson.email != &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

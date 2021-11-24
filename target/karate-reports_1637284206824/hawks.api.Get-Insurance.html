@@ -1,0 +1,2696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>hawks.api.Get-Insurance</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">7</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-17 09:34:33 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:17]"><span>[2:17]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:25]"><span>[3:25]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:33]"><span>[4:33]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:41]"><span>[5:41]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[6:49]"><span>[6:49]</span> <span>get User by Id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[7:57]"><span>[7:57]</span> <span>get User by Id</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">hawks/api/Get-Insurance.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Retrieve user</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2971</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:24.976 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2142</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">21:34:27.155 &lt;&lt; lock released, cached callonce: read(&#39;TokenGenerator.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">hawks.api.TokenGenerator</div>
+      </div>
+      <div class="time-cell passed">2124</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;hawks.api.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4">21:34:25.017 &gt;&gt; lock acquired, begin callonce: read(&#39;TokenGenerator.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def email = dataGenerator.getEmail()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">162</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = dataGenerator.getPassword()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/adminRegistered&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request {&quot;email&quot;:#(email),&quot;password&quot;:#(password)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">69</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1873</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.10">21:34:25.847 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/adminRegistered
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 85
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;deanOsinski@test.com&quot;,&quot;password&quot;:&quot;com.github.javafaker.FunnyName@4cffcc61&quot;}
+
+21:34:27.145 response time in milliseconds: 1297
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:25 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 420
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;user&quot;:{&quot;email&quot;:&quot;deanOsinski@test.com&quot;,&quot;password&quot;:&quot;$2a$10$swpLPfp8QGFKFUbUAiY4AOm7.myl4iMlB6DHL3jfEuyZpeqCrlIpu&quot;,&quot;created_at&quot;:&quot;2021-11-18 02:34:25&quot;,&quot;updated_at&quot;:&quot;2021-11-18 02:34:25&quot;,&quot;id&quot;:3232},&quot;token&quot;:{&quot;type&quot;:&quot;bearer&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;refreshToken&quot;:null}}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.12">21:34:27.152 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;user&quot;: {
+      &quot;email&quot;: &quot;deanOsinski@test.com&quot;,
+      &quot;password&quot;: &quot;$2a$10$swpLPfp8QGFKFUbUAiY4AOm7.myl4iMlB6DHL3jfEuyZpeqCrlIpu&quot;,
+      &quot;created_at&quot;: &quot;2021-11-18 02:34:25&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-18 02:34:25&quot;,
+      &quot;id&quot;: 3232
+    },
+    &quot;token&quot;: {
+      &quot;type&quot;: &quot;bearer&quot;,
+      &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+      &quot;refreshToken&quot;: null
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">818</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">21:34:27.167 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:27.982 response time in milliseconds: 815
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:25 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">21:34:27.984 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:17]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:17]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>834</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:17]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:27.993 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">830</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">21:34:27.998 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:28.826 response time in milliseconds: 828
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:26 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">21:34:28.828 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:25]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>827</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:28.837 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">824</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">21:34:28.842 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:29.663 response time in milliseconds: 821
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:27 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">21:34:29.665 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:33]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>839</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:33]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:29.673 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">836</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">21:34:29.676 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:30.511 response time in milliseconds: 834
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:28 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38">21:34:30.512 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:41]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:41]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>811</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:41]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:30.519 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">808</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44">21:34:30.524 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:31.329 response time in milliseconds: 804
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:29 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.46">21:34:31.330 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:49]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:49]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>825</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:49]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:49]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:31.335 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:49]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:49]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">821</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">21:34:31.340 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:32.160 response time in milliseconds: 820
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:30 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">21:34:32.161 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7:57]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">get</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7:57]</span>
+                <span class="scenario-name">get User by Id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>845</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7:57]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7:57]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">21:34:32.167 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:57]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;TokenGenerator.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:57]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenValue = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>headers {Authorization: &#39;#(&quot;Bearer &quot; + tokenValue)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/user/2471&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">842</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.60">21:34:32.171 request:
+1 &gt; GET https://www.test-insurance.com/api/v1/user/2471
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:34:33.011 response time in milliseconds: 840
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Thu, 18 Nov 2021 02:34:30 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1246
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;sessionID&quot;:&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,&quot;account&quot;:{&quot;accountId&quot;:2471,&quot;createDate&quot;:&quot;2021-11-09T02:11:19.000Z&quot;},&quot;processAsRenewal&quot;:&quot;&quot;,&quot;primaryPerson&quot;:{&quot;id&quot;:2471,&quot;username&quot;:&quot;Jan&quot;,&quot;email&quot;:&quot;automationtest12@xyz.com&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;Jack&quot;,&quot;lastName&quot;:&quot;Chen&quot;,&quot;suffix&quot;:&quot;Sr&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;maritalStatus&quot;:&quot;Married&quot;,&quot;employmentStatus&quot;:&quot;Retired&quot;,&quot;dateOfBirth&quot;:&quot;2000-05-21T00:00:00.000Z&quot;,&quot;languagePref&quot;:&quot;en&quot;,&quot;password&quot;:&quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,&quot;processAsRenewal&quot;:null,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-10 00:24:09&quot;,&quot;user_id&quot;:null},&quot;primaryPersonMailingAddress&quot;:{&quot;id&quot;:2133,&quot;personId&quot;:2471,&quot;addressType&quot;:&quot;USA&quot;,&quot;addressLine1&quot;:&quot;USA&quot;,&quot;addressLine2&quot;:&quot;&quot;,&quot;addressLine3&quot;:null,&quot;city&quot;:&quot;Sacr&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;95000&quot;,&quot;countryCode&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2021-11-09 02:11:19&quot;,&quot;updated_at&quot;:&quot;2021-11-09 02:43:11&quot;},&quot;primaryEmailAddress&quot;:{&quot;personId&quot;:2471,&quot;emailAddress&quot;:&quot;automationtest12@xyz.com&quot;},&quot;primaryPersonPhone&quot;:{&quot;personId&quot;:2471,&quot;phoneNumber&quot;:&quot;916000000&quot;,&quot;phoneExtension&quot;:&quot;123&quot;,&quot;phoneTime&quot;:&quot;1350&quot;,&quot;phoneType&quot;:&quot;Mobile&quot;},&quot;secondaryPerson&quot;:[]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.62">21:34:33.012 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;sessionID&quot;: &quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMyMzIsImlhdCI6MTYzNzIwMjg2NX0.QNvG_5CKMYHxuw0WkhyOMOzIH5s-cNFaXKHiUIGrvrc&quot;,
+    &quot;account&quot;: {
+      &quot;accountId&quot;: 2471,
+      &quot;createDate&quot;: &quot;2021-11-09T02:11:19.000Z&quot;
+    },
+    &quot;processAsRenewal&quot;: &quot;&quot;,
+    &quot;primaryPerson&quot;: {
+      &quot;id&quot;: 2471,
+      &quot;username&quot;: &quot;Jan&quot;,
+      &quot;email&quot;: &quot;automationtest12@xyz.com&quot;,
+      &quot;title&quot;: &quot;Mr.&quot;,
+      &quot;firstName&quot;: &quot;Jack&quot;,
+      &quot;lastName&quot;: &quot;Chen&quot;,
+      &quot;suffix&quot;: &quot;Sr&quot;,
+      &quot;gender&quot;: &quot;Male&quot;,
+      &quot;maritalStatus&quot;: &quot;Married&quot;,
+      &quot;employmentStatus&quot;: &quot;Retired&quot;,
+      &quot;dateOfBirth&quot;: &quot;2000-05-21T00:00:00.000Z&quot;,
+      &quot;languagePref&quot;: &quot;en&quot;,
+      &quot;password&quot;: &quot;$2a$10$.So1HmqDbLXQb.CB3cmeT.V0FxXD4brak6zEOVVBlGUk9MPL59BUK&quot;,
+      &quot;processAsRenewal&quot;: null,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-10 00:24:09&quot;,
+      &quot;user_id&quot;: null
+    },
+    &quot;primaryPersonMailingAddress&quot;: {
+      &quot;id&quot;: 2133,
+      &quot;personId&quot;: 2471,
+      &quot;addressType&quot;: &quot;USA&quot;,
+      &quot;addressLine1&quot;: &quot;USA&quot;,
+      &quot;addressLine2&quot;: &quot;&quot;,
+      &quot;addressLine3&quot;: null,
+      &quot;city&quot;: &quot;Sacr&quot;,
+      &quot;state&quot;: &quot;CA&quot;,
+      &quot;postalCode&quot;: &quot;95000&quot;,
+      &quot;countryCode&quot;: &quot;1&quot;,
+      &quot;created_at&quot;: &quot;2021-11-09 02:11:19&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-09 02:43:11&quot;
+    },
+    &quot;primaryEmailAddress&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;emailAddress&quot;: &quot;automationtest12@xyz.com&quot;
+    },
+    &quot;primaryPersonPhone&quot;: {
+      &quot;personId&quot;: 2471,
+      &quot;phoneNumber&quot;: &quot;916000000&quot;,
+      &quot;phoneExtension&quot;: &quot;123&quot;,
+      &quot;phoneTime&quot;: &quot;1350&quot;,
+      &quot;phoneType&quot;: &quot;Mobile&quot;
+    },
+    &quot;secondaryPerson&quot;: [
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

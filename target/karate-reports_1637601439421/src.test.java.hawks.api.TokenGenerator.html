@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.hawks.api.TokenGenerator</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-11-18 08:21:19 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>This scenario will generate token</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/hawks/api/TokenGenerator.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Generate Token</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">This scenario will generate token</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2232</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;hawks.api.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">20:21:17.502 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def email = dataGenerator.getEmail()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">159</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def password = dataGenerator.getPassword()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.test-insurance.com/api/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/adminRegistered&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request {&quot;email&quot;:#(email),&quot;password&quot;:#(password)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">70</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1969</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">20:21:18.365 request:
+1 &gt; POST https://www.test-insurance.com/api/v1/adminRegistered
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 55
+1 &gt; Host: www.test-insurance.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;kazukoFunk@test.com&quot;,&quot;password&quot;:&quot;I. P. Daly&quot;}
+
+20:21:19.762 response time in milliseconds: 1394
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 19 Nov 2021 01:21:16 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 419
+1 &lt; Connection: keep-alive
+{&quot;meta&quot;:{&quot;code&quot;:200,&quot;status&quot;:&quot;success&quot;},&quot;data&quot;:{&quot;user&quot;:{&quot;email&quot;:&quot;kazukoFunk@test.com&quot;,&quot;password&quot;:&quot;$2a$10$rTWdw6hiNJC1pJ/451JjfO9o/53BfRUp2Q9K2hn9ZFY0.BkbPrgC2&quot;,&quot;created_at&quot;:&quot;2021-11-19 01:21:16&quot;,&quot;updated_at&quot;:&quot;2021-11-19 01:21:16&quot;,&quot;id&quot;:3439},&quot;token&quot;:{&quot;type&quot;:&quot;bearer&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MzksImlhdCI6MTYzNzI4NDg3Nn0.se9MIJRTFI-wfNStNKAQv3rHyCbs9fw67xR0eHgaKC4&quot;,&quot;refreshToken&quot;:null}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">20:21:19.768 [print] {
+  &quot;meta&quot;: {
+    &quot;code&quot;: 200,
+    &quot;status&quot;: &quot;success&quot;
+  },
+  &quot;data&quot;: {
+    &quot;user&quot;: {
+      &quot;email&quot;: &quot;kazukoFunk@test.com&quot;,
+      &quot;password&quot;: &quot;$2a$10$rTWdw6hiNJC1pJ/451JjfO9o/53BfRUp2Q9K2hn9ZFY0.BkbPrgC2&quot;,
+      &quot;created_at&quot;: &quot;2021-11-19 01:21:16&quot;,
+      &quot;updated_at&quot;: &quot;2021-11-19 01:21:16&quot;,
+      &quot;id&quot;: 3439
+    },
+    &quot;token&quot;: {
+      &quot;type&quot;: &quot;bearer&quot;,
+      &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjM0MzksImlhdCI6MTYzNzI4NDg3Nn0.se9MIJRTFI-wfNStNKAQv3rHyCbs9fw67xR0eHgaKC4&quot;,
+      &quot;refreshToken&quot;: null
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
