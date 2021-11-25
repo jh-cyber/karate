@@ -8,8 +8,8 @@ Feature: End to End Testing for Rest Api using Karate
     * def lastNameValue = dataGenerator.getLastName()
     * def genderValue = dataGenerator.getGender()
     Given url apiUrl
-    * def result = callonce read('TokenGenerator.feature')
-    * def tokenValue = result.token
+    Given def result = callonce read('TokenGenerator.feature')
+    Given def tokenValue = result.token
 
   @E2E
   Scenario Outline: E2E Testing
@@ -54,8 +54,8 @@ Feature: End to End Testing for Rest Api using Karate
     And match response.meta.code == 200
     And match response.meta.status == 'success'
     And match response.data.primaryPerson.email == '<email>'
-    * def accountId = response.data.account.accountId
-    * print accountId
+    And def accountId = response.data.account.accountId
+    And print accountId
     Given url apiUrl
     Given headers {Authorization: '#("Bearer " + tokenValue)'}
     Given path '/user/' + accountId

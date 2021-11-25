@@ -24917,3 +24917,2201 @@ classpath:hawks/api/hawks.feature:43
   }
 }
  
+11:22:48.704 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: hawks/api/tes.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+11:23:42.287 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: hawks/api/tes.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+11:24:32.028 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: hawks/api/tes.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+11:25:58.057 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: hawks/api/tes.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+11:27:00.065 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: hawks/api/tes.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+11:27:38.091 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:27:38.979 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:38.989 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: TokenGenerator.feature
+11:27:39.465 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 55
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"carlynTurner@test.com","password":"Sam Pull"}
+
+11:27:40.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 981
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 16:27:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 421
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"carlynTurner@test.com","password":"$2a$10$5v9Y50DxR5WxYYECOc4yAeuKqx3vDf7oqQ0Ax8CeJnbVi9SPVuAi.","created_at":"2021-11-25 16:27:38","updated_at":"2021-11-25 16:27:38","id":5976},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzYsImlhdCI6MTYzNzg1NzY1OH0.7P_Tmjryk7QtCAWijSB7jsekK6BEZ2Lg-9o7qwdr9jg","refreshToken":null}}}
+11:27:40.451 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "carlynTurner@test.com",
+      "password": "$2a$10$5v9Y50DxR5WxYYECOc4yAeuKqx3vDf7oqQ0Ax8CeJnbVi9SPVuAi.",
+      "created_at": "2021-11-25 16:27:38",
+      "updated_at": "2021-11-25 16:27:38",
+      "id": 5976
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzYsImlhdCI6MTYzNzg1NzY1OH0.7P_Tmjryk7QtCAWijSB7jsekK6BEZ2Lg-9o7qwdr9jg",
+      "refreshToken": null
+    }
+  }
+}
+ 
+11:27:40.453 [main] INFO  com.intuit.karate - << lock released, cached callSingle: TokenGenerator.feature
+11:27:40.565 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.585 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.654 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.666 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.717 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.726 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.785 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.794 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.842 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.852 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.891 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.901 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.941 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:40.951 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:40.998 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:27:41.003 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:41.039 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:17.864 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:30:18.734 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:18.741 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: TokenGenerator.feature
+11:30:19.193 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"myronCarroll@test.com","password":"Hein Noon"}
+
+11:30:20.155 [main] DEBUG com.intuit.karate - response time in milliseconds: 960
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 16:30:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 421
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"myronCarroll@test.com","password":"$2a$10$wmM7ZX/gg4GngCWHTkllb./RfsdmXu1FiALFeiyRqinD62acwUkuW","created_at":"2021-11-25 16:30:18","updated_at":"2021-11-25 16:30:18","id":5977},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzcsImlhdCI6MTYzNzg1NzgxOH0.qiOaf7jdtRcYZrtQ7kVlYJ0srbyp7due6VErGGOezak","refreshToken":null}}}
+11:30:20.159 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "myronCarroll@test.com",
+      "password": "$2a$10$wmM7ZX/gg4GngCWHTkllb./RfsdmXu1FiALFeiyRqinD62acwUkuW",
+      "created_at": "2021-11-25 16:30:18",
+      "updated_at": "2021-11-25 16:30:18",
+      "id": 5977
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzcsImlhdCI6MTYzNzg1NzgxOH0.qiOaf7jdtRcYZrtQ7kVlYJ0srbyp7due6VErGGOezak",
+      "refreshToken": null
+    }
+  }
+}
+ 
+11:30:20.162 [main] INFO  com.intuit.karate - << lock released, cached callSingle: TokenGenerator.feature
+11:30:20.281 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.296 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.376 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.387 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.437 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.447 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.497 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.507 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.553 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.562 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.599 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.609 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.654 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.662 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.702 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+11:30:20.707 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:20.745 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:25.784 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:12:26.656 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:26.665 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: TokenGenerator.feature
+13:12:27.083 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"frankHarvey@test.com","password":"P. Brain"}
+
+13:12:28.023 [main] DEBUG com.intuit.karate - response time in milliseconds: 940
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:12:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 420
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"frankHarvey@test.com","password":"$2a$10$2h7Vgt610Tqw5pZoA/gLMeuk08bNj5ELxOokFQQytX/a/03zyckSW","created_at":"2021-11-25 18:12:26","updated_at":"2021-11-25 18:12:26","id":5978},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzgsImlhdCI6MTYzNzg2Mzk0Nn0.p46dPuhvx0fg42UcMr_M-9VMwz1m_B9aYGLNRVqsDGQ","refreshToken":null}}}
+13:12:28.028 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "frankHarvey@test.com",
+      "password": "$2a$10$2h7Vgt610Tqw5pZoA/gLMeuk08bNj5ELxOokFQQytX/a/03zyckSW",
+      "created_at": "2021-11-25 18:12:26",
+      "updated_at": "2021-11-25 18:12:26",
+      "id": 5978
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzgsImlhdCI6MTYzNzg2Mzk0Nn0.p46dPuhvx0fg42UcMr_M-9VMwz1m_B9aYGLNRVqsDGQ",
+      "refreshToken": null
+    }
+  }
+}
+ 
+13:12:28.031 [main] INFO  com.intuit.karate - << lock released, cached callSingle: TokenGenerator.feature
+13:12:28.175 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.195 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.270 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.284 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.339 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.351 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.389 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.400 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.452 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.462 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.501 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.552 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.559 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.607 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:12:28.614 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:12:28.659 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:11
+Given result = callonce read('TokenGenerator.feature')
+no step-definition method match found for: result = callonce read('TokenGenerator.feature')
+classpath:hawks/api/EndToEndTesting.feature:11
+13:16:32.829 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:16:33.631 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:33.641 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: TokenGenerator.feature
+13:16:34.069 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"cordellSchaden@test.com","password":"Lowden Clear"}
+
+13:16:35.187 [main] DEBUG com.intuit.karate - response time in milliseconds: 1116
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 423
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"cordellSchaden@test.com","password":"$2a$10$dxGuRMukTA2Kuqh3RRldMu6QsNnLQ2W.XNyhHS91bCn0iH05mqsBi","created_at":"2021-11-25 18:16:33","updated_at":"2021-11-25 18:16:33","id":5979},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8","refreshToken":null}}}
+13:16:35.191 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "cordellSchaden@test.com",
+      "password": "$2a$10$dxGuRMukTA2Kuqh3RRldMu6QsNnLQ2W.XNyhHS91bCn0iH05mqsBi",
+      "created_at": "2021-11-25 18:16:33",
+      "updated_at": "2021-11-25 18:16:33",
+      "id": 5979
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8",
+      "refreshToken": null
+    }
+  }
+}
+ 
+13:16:35.195 [main] INFO  com.intuit.karate - << lock released, cached callSingle: TokenGenerator.feature
+13:16:35.319 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('TokenGenerator.feature')
+13:16:35.350 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"murielGaylord@test.com","password":"Sal A. Mander"}
+
+13:16:36.179 [main] DEBUG com.intuit.karate - response time in milliseconds: 829
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 422
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"murielGaylord@test.com","password":"$2a$10$zpfoMNwEiLCPclkY0pZ2Uuxkkq4WAn/4cMLmMkf1c8OiHpaAZwh8G","created_at":"2021-11-25 18:16:34","updated_at":"2021-11-25 18:16:34","id":5980},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5ODAsImlhdCI6MTYzNzg2NDE5NH0.lhB4xxgcozJiMHxW0vNaHnpBTJvMgNX-7BqcceWej-4","refreshToken":null}}}
+13:16:36.185 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "murielGaylord@test.com",
+      "password": "$2a$10$zpfoMNwEiLCPclkY0pZ2Uuxkkq4WAn/4cMLmMkf1c8OiHpaAZwh8G",
+      "created_at": "2021-11-25 18:16:34",
+      "updated_at": "2021-11-25 18:16:34",
+      "id": 5980
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5ODAsImlhdCI6MTYzNzg2NDE5NH0.lhB4xxgcozJiMHxW0vNaHnpBTJvMgNX-7BqcceWej-4",
+      "refreshToken": null
+    }
+  }
+}
+ 
+13:16:36.188 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('TokenGenerator.feature')
+13:16:36.194 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 524
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"inellHackett@test.com","title":"Investor Paradigm Technician","firstName":"Dexter","lastName":"Ankunding","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:36.902 [main] DEBUG com.intuit.karate - response time in milliseconds: 708
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 361
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5981,"createDate":"2021-11-25 18:16:35"},"primaryPerson":{"email":"inellHackett@test.com","title":"Investor Paradigm Technician","firstName":"Dexter","lastName":"Ankunding","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:36.906 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5981,
+      "createDate": "2021-11-25 18:16:35"
+    },
+    "primaryPerson": {
+      "email": "inellHackett@test.com",
+      "title": "Investor Paradigm Technician",
+      "firstName": "Dexter",
+      "lastName": "Ankunding",
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:36.920 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:36.934 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:36.997 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 521
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"lakeeshaWatsica@test.com","title":"Corporate Web Developer","firstName":"Orville","lastName":"Schultz","gender":"O-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:37.729 [main] DEBUG com.intuit.karate - response time in milliseconds: 731
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 358
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5982,"createDate":"2021-11-25 18:16:36"},"primaryPerson":{"email":"lakeeshaWatsica@test.com","title":"Corporate Web Developer","firstName":"Orville","lastName":"Schultz","gender":"O-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:37.734 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5982,
+      "createDate": "2021-11-25 18:16:36"
+    },
+    "primaryPerson": {
+      "email": "lakeeshaWatsica@test.com",
+      "title": "Corporate Web Developer",
+      "firstName": "Orville",
+      "lastName": "Schultz",
+      "gender": "O-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:37.738 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:37.745 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:37.808 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 518
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"alyshaOrn@test.com","title":"Investor Quality Orchestrator","firstName":"Selma","lastName":"Graham","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:38.523 [main] DEBUG com.intuit.karate - response time in milliseconds: 714
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 355
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5983,"createDate":"2021-11-25 18:16:36"},"primaryPerson":{"email":"alyshaOrn@test.com","title":"Investor Quality Orchestrator","firstName":"Selma","lastName":"Graham","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:38.524 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5983,
+      "createDate": "2021-11-25 18:16:36"
+    },
+    "primaryPerson": {
+      "email": "alyshaOrn@test.com",
+      "title": "Investor Quality Orchestrator",
+      "firstName": "Selma",
+      "lastName": "Graham",
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:38.527 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:38.533 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:38.597 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 521
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"kacyMcKenzie@test.com","title":"Senior Marketing Strategist","firstName":"Cassy","lastName":"Effertz","gender":"AB+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:39.314 [main] DEBUG com.intuit.karate - response time in milliseconds: 716
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 358
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5984,"createDate":"2021-11-25 18:16:37"},"primaryPerson":{"email":"kacyMcKenzie@test.com","title":"Senior Marketing Strategist","firstName":"Cassy","lastName":"Effertz","gender":"AB+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:39.318 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5984,
+      "createDate": "2021-11-25 18:16:37"
+    },
+    "primaryPerson": {
+      "email": "kacyMcKenzie@test.com",
+      "title": "Senior Marketing Strategist",
+      "firstName": "Cassy",
+      "lastName": "Effertz",
+      "gender": "AB+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:39.321 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:39.329 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:39.376 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 529
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"zachariahVonRueden@test.com","title":"Human Factors Technician","firstName":"Mamie","lastName":"Christiansen","gender":"AB+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:40.079 [main] DEBUG com.intuit.karate - response time in milliseconds: 703
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 366
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5985,"createDate":"2021-11-25 18:16:38"},"primaryPerson":{"email":"zachariahVonRueden@test.com","title":"Human Factors Technician","firstName":"Mamie","lastName":"Christiansen","gender":"AB+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:40.082 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5985,
+      "createDate": "2021-11-25 18:16:38"
+    },
+    "primaryPerson": {
+      "email": "zachariahVonRueden@test.com",
+      "title": "Human Factors Technician",
+      "firstName": "Mamie",
+      "lastName": "Christiansen",
+      "gender": "AB+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:40.084 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:40.092 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:40.145 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 518
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"gayleSchultz@test.com","title":"Legacy Usability Assistant","firstName":"Zella","lastName":"Walsh","gender":"AB-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:40.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 355
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5986,"createDate":"2021-11-25 18:16:39"},"primaryPerson":{"email":"gayleSchultz@test.com","title":"Legacy Usability Assistant","firstName":"Zella","lastName":"Walsh","gender":"AB-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:40.833 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5986,
+      "createDate": "2021-11-25 18:16:39"
+    },
+    "primaryPerson": {
+      "email": "gayleSchultz@test.com",
+      "title": "Legacy Usability Assistant",
+      "firstName": "Zella",
+      "lastName": "Walsh",
+      "gender": "AB-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:40.835 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:40.841 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:40.886 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 526
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"mariselaGusikowski@test.com","title":"International Brand Officer","firstName":"Libby","lastName":"Hegmann","gender":"A+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:41.591 [main] DEBUG com.intuit.karate - response time in milliseconds: 704
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 363
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5987,"createDate":"2021-11-25 18:16:39"},"primaryPerson":{"email":"mariselaGusikowski@test.com","title":"International Brand Officer","firstName":"Libby","lastName":"Hegmann","gender":"A+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:41.592 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5987,
+      "createDate": "2021-11-25 18:16:39"
+    },
+    "primaryPerson": {
+      "email": "mariselaGusikowski@test.com",
+      "title": "International Brand Officer",
+      "firstName": "Libby",
+      "lastName": "Hegmann",
+      "gender": "A+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:41.595 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:41.603 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:41.650 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 524
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"alixMcCullough@test.com","title":"Dynamic Directives Facilitator","firstName":"Claude","lastName":"Adams","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:42.327 [main] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 361
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5988,"createDate":"2021-11-25 18:16:40"},"primaryPerson":{"email":"alixMcCullough@test.com","title":"Dynamic Directives Facilitator","firstName":"Claude","lastName":"Adams","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:42.328 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5988,
+      "createDate": "2021-11-25 18:16:40"
+    },
+    "primaryPerson": {
+      "email": "alixMcCullough@test.com",
+      "title": "Dynamic Directives Facilitator",
+      "firstName": "Claude",
+      "lastName": "Adams",
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:42.330 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:16:42.335 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:16:42.371 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5NzksImlhdCI6MTYzNzg2NDE5M30.GKHZl6zolwuuO-llgk35arHxIlPzmPaLx8f_8uli-g8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 524
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"bennettLeffler@test.com","title":"Forward Marketing Architect","firstName":"Desmond","lastName":"Simonis","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:16:43.075 [main] DEBUG com.intuit.karate - response time in milliseconds: 703
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:16:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 361
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5989,"createDate":"2021-11-25 18:16:41"},"primaryPerson":{"email":"bennettLeffler@test.com","title":"Forward Marketing Architect","firstName":"Desmond","lastName":"Simonis","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:16:43.077 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5989,
+      "createDate": "2021-11-25 18:16:41"
+    },
+    "primaryPerson": {
+      "email": "bennettLeffler@test.com",
+      "title": "Forward Marketing Architect",
+      "firstName": "Desmond",
+      "lastName": "Simonis",
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:16:43.081 [main] ERROR com.intuit.karate - classpath:hawks/api/EndToEndTesting.feature:57
+And accountId = response.data.account.accountId
+no step-definition method match found for: accountId = response.data.account.accountId
+classpath:hawks/api/EndToEndTesting.feature:57
+13:17:19.461 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:17:20.305 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:20.314 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: TokenGenerator.feature
+13:17:20.735 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"annellePrice@test.com","password":"Myles Long"}
+
+13:17:21.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 916
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 421
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"annellePrice@test.com","password":"$2a$10$QBY/ksjKft2id1xCT.bNJ.ppKqyMx3KlAPQxHUp/DN6uYSucgjRfe","created_at":"2021-11-25 18:17:19","updated_at":"2021-11-25 18:17:19","id":5990},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","refreshToken":null}}}
+13:17:21.658 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "annellePrice@test.com",
+      "password": "$2a$10$QBY/ksjKft2id1xCT.bNJ.ppKqyMx3KlAPQxHUp/DN6uYSucgjRfe",
+      "created_at": "2021-11-25 18:17:19",
+      "updated_at": "2021-11-25 18:17:19",
+      "id": 5990
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+      "refreshToken": null
+    }
+  }
+}
+ 
+13:17:21.660 [main] INFO  com.intuit.karate - << lock released, cached callSingle: TokenGenerator.feature
+13:17:21.771 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('TokenGenerator.feature')
+13:17:21.806 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/adminRegistered
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"email":"gailBreitenberg@test.com","password":"Otto Carr"}
+
+13:17:22.617 [main] DEBUG com.intuit.karate - response time in milliseconds: 811
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 424
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"user":{"email":"gailBreitenberg@test.com","password":"$2a$10$DvDquBcNyrMwUs6/QdNfR.0sWviMk1iu5ab.sbmviPtFeYLH1AL46","created_at":"2021-11-25 18:17:20","updated_at":"2021-11-25 18:17:20","id":5991},"token":{"type":"bearer","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTEsImlhdCI6MTYzNzg2NDI0MH0.F1DUrCmHmgOLTXkWMC6KGuYUUh8UyRNaNo_hFoXSSAA","refreshToken":null}}}
+13:17:22.621 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "user": {
+      "email": "gailBreitenberg@test.com",
+      "password": "$2a$10$DvDquBcNyrMwUs6/QdNfR.0sWviMk1iu5ab.sbmviPtFeYLH1AL46",
+      "created_at": "2021-11-25 18:17:20",
+      "updated_at": "2021-11-25 18:17:20",
+      "id": 5991
+    },
+    "token": {
+      "type": "bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTEsImlhdCI6MTYzNzg2NDI0MH0.F1DUrCmHmgOLTXkWMC6KGuYUUh8UyRNaNo_hFoXSSAA",
+      "refreshToken": null
+    }
+  }
+}
+ 
+13:17:22.624 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('TokenGenerator.feature')
+13:17:22.629 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 518
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"nestorKulas@test.com","title":"Internal Mobility Director","firstName":"Tim","lastName":"Rosenbaum","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:23.338 [main] DEBUG com.intuit.karate - response time in milliseconds: 709
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 355
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5992,"createDate":"2021-11-25 18:17:21"},"primaryPerson":{"email":"nestorKulas@test.com","title":"Internal Mobility Director","firstName":"Tim","lastName":"Rosenbaum","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:23.341 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5992,
+      "createDate": "2021-11-25 18:17:21"
+    },
+    "primaryPerson": {
+      "email": "nestorKulas@test.com",
+      "title": "Internal Mobility Director",
+      "firstName": "Tim",
+      "lastName": "Rosenbaum",
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:23.352 [main] INFO  com.intuit.karate - [print] 5992 
+13:17:23.356 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5992
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:24.052 [main] DEBUG com.intuit.karate - response time in milliseconds: 696
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:22 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1229
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5992,"createDate":"2021-11-25T18:17:21.000Z"},"processAsRenewal":"","primaryPerson":{"id":5992,"username":null,"email":"nestorKulas@test.com","title":"Internal Mobility Director","firstName":"Tim","lastName":"Rosenbaum","suffix":null,"gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:21","updated_at":"2021-11-25 18:17:21","user_id":null},"primaryPersonMailingAddress":{"id":4362,"personId":5992,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:21","updated_at":"2021-11-25 18:17:21"},"primaryEmailAddress":{"personId":5992,"emailAddress":"nestorKulas@test.com"},"primaryPersonPhone":{"personId":5992,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:24.056 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5992,
+      "createDate": "2021-11-25T18:17:21.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5992,
+      "username": null,
+      "email": "nestorKulas@test.com",
+      "title": "Internal Mobility Director",
+      "firstName": "Tim",
+      "lastName": "Rosenbaum",
+      "suffix": null,
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:21",
+      "updated_at": "2021-11-25 18:17:21",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4362,
+      "personId": 5992,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:21",
+      "updated_at": "2021-11-25 18:17:21"
+    },
+    "primaryEmailAddress": {
+      "personId": 5992,
+      "emailAddress": "nestorKulas@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5992,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:24.059 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5992
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:24.782 [main] DEBUG com.intuit.karate - response time in milliseconds: 722
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:23 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:24.784 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:24.794 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:24.842 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 514
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"aikoGlover@test.com","title":"District Operations Liaison","firstName":"Jean","lastName":"Huel","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:25.541 [main] DEBUG com.intuit.karate - response time in milliseconds: 698
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 351
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5993,"createDate":"2021-11-25 18:17:23"},"primaryPerson":{"email":"aikoGlover@test.com","title":"District Operations Liaison","firstName":"Jean","lastName":"Huel","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:25.544 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5993,
+      "createDate": "2021-11-25 18:17:23"
+    },
+    "primaryPerson": {
+      "email": "aikoGlover@test.com",
+      "title": "District Operations Liaison",
+      "firstName": "Jean",
+      "lastName": "Huel",
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:25.547 [main] INFO  com.intuit.karate - [print] 5993 
+13:17:25.549 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5993
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:26.254 [main] DEBUG com.intuit.karate - response time in milliseconds: 705
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:24 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1224
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5993,"createDate":"2021-11-25T18:17:23.000Z"},"processAsRenewal":"","primaryPerson":{"id":5993,"username":null,"email":"aikoGlover@test.com","title":"District Operations Liaison","firstName":"Jean","lastName":"Huel","suffix":null,"gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:23","updated_at":"2021-11-25 18:17:23","user_id":null},"primaryPersonMailingAddress":{"id":4363,"personId":5993,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:23","updated_at":"2021-11-25 18:17:23"},"primaryEmailAddress":{"personId":5993,"emailAddress":"aikoGlover@test.com"},"primaryPersonPhone":{"personId":5993,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:26.258 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5993,
+      "createDate": "2021-11-25T18:17:23.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5993,
+      "username": null,
+      "email": "aikoGlover@test.com",
+      "title": "District Operations Liaison",
+      "firstName": "Jean",
+      "lastName": "Huel",
+      "suffix": null,
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:23",
+      "updated_at": "2021-11-25 18:17:23",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4363,
+      "personId": 5993,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:23",
+      "updated_at": "2021-11-25 18:17:23"
+    },
+    "primaryEmailAddress": {
+      "personId": 5993,
+      "emailAddress": "aikoGlover@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5993,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:26.261 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5993
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:26.979 [main] DEBUG com.intuit.karate - response time in milliseconds: 718
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:25 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:26.981 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:26.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:27.043 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 524
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"denisDickinson@test.com","title":"Investor Identity Designer","firstName":"Stefan","lastName":"Bergstrom","gender":"A-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:27.729 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 361
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5994,"createDate":"2021-11-25 18:17:26"},"primaryPerson":{"email":"denisDickinson@test.com","title":"Investor Identity Designer","firstName":"Stefan","lastName":"Bergstrom","gender":"A-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:27.733 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5994,
+      "createDate": "2021-11-25 18:17:26"
+    },
+    "primaryPerson": {
+      "email": "denisDickinson@test.com",
+      "title": "Investor Identity Designer",
+      "firstName": "Stefan",
+      "lastName": "Bergstrom",
+      "gender": "A-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:27.737 [main] INFO  com.intuit.karate - [print] 5994 
+13:17:27.739 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5994
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:28.431 [main] DEBUG com.intuit.karate - response time in milliseconds: 692
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:26 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1238
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5994,"createDate":"2021-11-25T18:17:26.000Z"},"processAsRenewal":"","primaryPerson":{"id":5994,"username":null,"email":"denisDickinson@test.com","title":"Investor Identity Designer","firstName":"Stefan","lastName":"Bergstrom","suffix":null,"gender":"A-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:26","updated_at":"2021-11-25 18:17:26","user_id":null},"primaryPersonMailingAddress":{"id":4364,"personId":5994,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:26","updated_at":"2021-11-25 18:17:26"},"primaryEmailAddress":{"personId":5994,"emailAddress":"denisDickinson@test.com"},"primaryPersonPhone":{"personId":5994,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:28.434 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5994,
+      "createDate": "2021-11-25T18:17:26.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5994,
+      "username": null,
+      "email": "denisDickinson@test.com",
+      "title": "Investor Identity Designer",
+      "firstName": "Stefan",
+      "lastName": "Bergstrom",
+      "suffix": null,
+      "gender": "A-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:26",
+      "updated_at": "2021-11-25 18:17:26",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4364,
+      "personId": 5994,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:26",
+      "updated_at": "2021-11-25 18:17:26"
+    },
+    "primaryEmailAddress": {
+      "personId": 5994,
+      "emailAddress": "denisDickinson@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5994,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:28.437 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5994
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:29.122 [main] DEBUG com.intuit.karate - response time in milliseconds: 684
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:27 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:29.125 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:29.133 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:29.189 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 523
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"milanGusikowski@test.com","title":"Customer Research Planner","firstName":"Brice","lastName":"Schneider","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:29.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 730
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 360
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5995,"createDate":"2021-11-25 18:17:28"},"primaryPerson":{"email":"milanGusikowski@test.com","title":"Customer Research Planner","firstName":"Brice","lastName":"Schneider","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:29.921 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5995,
+      "createDate": "2021-11-25 18:17:28"
+    },
+    "primaryPerson": {
+      "email": "milanGusikowski@test.com",
+      "title": "Customer Research Planner",
+      "firstName": "Brice",
+      "lastName": "Schneider",
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:29.923 [main] INFO  com.intuit.karate - [print] 5995 
+13:17:29.924 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5995
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:30.606 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:28 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1238
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5995,"createDate":"2021-11-25T18:17:28.000Z"},"processAsRenewal":"","primaryPerson":{"id":5995,"username":null,"email":"milanGusikowski@test.com","title":"Customer Research Planner","firstName":"Brice","lastName":"Schneider","suffix":null,"gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:28","updated_at":"2021-11-25 18:17:28","user_id":null},"primaryPersonMailingAddress":{"id":4365,"personId":5995,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:28","updated_at":"2021-11-25 18:17:28"},"primaryEmailAddress":{"personId":5995,"emailAddress":"milanGusikowski@test.com"},"primaryPersonPhone":{"personId":5995,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:30.609 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5995,
+      "createDate": "2021-11-25T18:17:28.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5995,
+      "username": null,
+      "email": "milanGusikowski@test.com",
+      "title": "Customer Research Planner",
+      "firstName": "Brice",
+      "lastName": "Schneider",
+      "suffix": null,
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:28",
+      "updated_at": "2021-11-25 18:17:28",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4365,
+      "personId": 5995,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:28",
+      "updated_at": "2021-11-25 18:17:28"
+    },
+    "primaryEmailAddress": {
+      "personId": 5995,
+      "emailAddress": "milanGusikowski@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5995,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:30.612 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5995
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:31.297 [main] DEBUG com.intuit.karate - response time in milliseconds: 684
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:29 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:31.299 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:31.313 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:31.358 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 521
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"amadoWitting@test.com","title":"Future Markets Supervisor","firstName":"Laurence","lastName":"Krajcik","gender":"B-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:32.079 [main] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 358
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5996,"createDate":"2021-11-25 18:17:30"},"primaryPerson":{"email":"amadoWitting@test.com","title":"Future Markets Supervisor","firstName":"Laurence","lastName":"Krajcik","gender":"B-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:32.081 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5996,
+      "createDate": "2021-11-25 18:17:30"
+    },
+    "primaryPerson": {
+      "email": "amadoWitting@test.com",
+      "title": "Future Markets Supervisor",
+      "firstName": "Laurence",
+      "lastName": "Krajcik",
+      "gender": "B-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:32.085 [main] INFO  com.intuit.karate - [print] 5996 
+13:17:32.087 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5996
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:32.797 [main] DEBUG com.intuit.karate - response time in milliseconds: 710
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:31 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1233
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5996,"createDate":"2021-11-25T18:17:30.000Z"},"processAsRenewal":"","primaryPerson":{"id":5996,"username":null,"email":"amadoWitting@test.com","title":"Future Markets Supervisor","firstName":"Laurence","lastName":"Krajcik","suffix":null,"gender":"B-","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:30","updated_at":"2021-11-25 18:17:30","user_id":null},"primaryPersonMailingAddress":{"id":4366,"personId":5996,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:30","updated_at":"2021-11-25 18:17:30"},"primaryEmailAddress":{"personId":5996,"emailAddress":"amadoWitting@test.com"},"primaryPersonPhone":{"personId":5996,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:32.798 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5996,
+      "createDate": "2021-11-25T18:17:30.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5996,
+      "username": null,
+      "email": "amadoWitting@test.com",
+      "title": "Future Markets Supervisor",
+      "firstName": "Laurence",
+      "lastName": "Krajcik",
+      "suffix": null,
+      "gender": "B-",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:30",
+      "updated_at": "2021-11-25 18:17:30",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4366,
+      "personId": 5996,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:30",
+      "updated_at": "2021-11-25 18:17:30"
+    },
+    "primaryEmailAddress": {
+      "personId": 5996,
+      "emailAddress": "amadoWitting@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5996,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:32.800 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5996
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:33.487 [main] DEBUG com.intuit.karate - response time in milliseconds: 687
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:31 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:33.489 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:33.500 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:33.544 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 524
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"sidneyMayert@test.com","title":"Direct Functionality Developer","firstName":"Nelida","lastName":"McClure","gender":"A+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:34.230 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 361
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5997,"createDate":"2021-11-25 18:17:32"},"primaryPerson":{"email":"sidneyMayert@test.com","title":"Direct Functionality Developer","firstName":"Nelida","lastName":"McClure","gender":"A+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:34.232 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5997,
+      "createDate": "2021-11-25 18:17:32"
+    },
+    "primaryPerson": {
+      "email": "sidneyMayert@test.com",
+      "title": "Direct Functionality Developer",
+      "firstName": "Nelida",
+      "lastName": "McClure",
+      "gender": "A+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:34.239 [main] INFO  com.intuit.karate - [print] 5997 
+13:17:34.241 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5997
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:34.929 [main] DEBUG com.intuit.karate - response time in milliseconds: 687
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:33 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1236
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5997,"createDate":"2021-11-25T18:17:32.000Z"},"processAsRenewal":"","primaryPerson":{"id":5997,"username":null,"email":"sidneyMayert@test.com","title":"Direct Functionality Developer","firstName":"Nelida","lastName":"McClure","suffix":null,"gender":"A+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:32","updated_at":"2021-11-25 18:17:32","user_id":null},"primaryPersonMailingAddress":{"id":4367,"personId":5997,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:32","updated_at":"2021-11-25 18:17:32"},"primaryEmailAddress":{"personId":5997,"emailAddress":"sidneyMayert@test.com"},"primaryPersonPhone":{"personId":5997,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:34.931 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5997,
+      "createDate": "2021-11-25T18:17:32.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5997,
+      "username": null,
+      "email": "sidneyMayert@test.com",
+      "title": "Direct Functionality Developer",
+      "firstName": "Nelida",
+      "lastName": "McClure",
+      "suffix": null,
+      "gender": "A+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:32",
+      "updated_at": "2021-11-25 18:17:32",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4367,
+      "personId": 5997,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:32",
+      "updated_at": "2021-11-25 18:17:32"
+    },
+    "primaryEmailAddress": {
+      "personId": 5997,
+      "emailAddress": "sidneyMayert@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5997,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:34.934 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5997
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:35.620 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:33 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:35.621 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:35.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:35.668 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 518
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"rebeccaSchuppe@test.com","title":"Lead Intranet Designer","firstName":"Karren","lastName":"Kautzer","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:36.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 694
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 355
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5998,"createDate":"2021-11-25 18:17:34"},"primaryPerson":{"email":"rebeccaSchuppe@test.com","title":"Lead Intranet Designer","firstName":"Karren","lastName":"Kautzer","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:36.363 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5998,
+      "createDate": "2021-11-25 18:17:34"
+    },
+    "primaryPerson": {
+      "email": "rebeccaSchuppe@test.com",
+      "title": "Lead Intranet Designer",
+      "firstName": "Karren",
+      "lastName": "Kautzer",
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:36.365 [main] INFO  com.intuit.karate - [print] 5998 
+13:17:36.366 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5998
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:37.090 [main] DEBUG com.intuit.karate - response time in milliseconds: 724
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:35 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1232
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5998,"createDate":"2021-11-25T18:17:34.000Z"},"processAsRenewal":"","primaryPerson":{"id":5998,"username":null,"email":"rebeccaSchuppe@test.com","title":"Lead Intranet Designer","firstName":"Karren","lastName":"Kautzer","suffix":null,"gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:34","updated_at":"2021-11-25 18:17:34","user_id":null},"primaryPersonMailingAddress":{"id":4368,"personId":5998,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:34","updated_at":"2021-11-25 18:17:34"},"primaryEmailAddress":{"personId":5998,"emailAddress":"rebeccaSchuppe@test.com"},"primaryPersonPhone":{"personId":5998,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:37.090 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5998,
+      "createDate": "2021-11-25T18:17:34.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5998,
+      "username": null,
+      "email": "rebeccaSchuppe@test.com",
+      "title": "Lead Intranet Designer",
+      "firstName": "Karren",
+      "lastName": "Kautzer",
+      "suffix": null,
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:34",
+      "updated_at": "2021-11-25 18:17:34",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4368,
+      "personId": 5998,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:34",
+      "updated_at": "2021-11-25 18:17:34"
+    },
+    "primaryEmailAddress": {
+      "personId": 5998,
+      "emailAddress": "rebeccaSchuppe@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5998,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:37.092 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5998
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:37.782 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:36 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:37.783 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:37.791 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:37.832 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 522
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"janiseBoehm@test.com","title":"International Brand Strategist","firstName":"Sammy","lastName":"O'Keefe","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:38.551 [main] DEBUG com.intuit.karate - response time in milliseconds: 719
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 359
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":5999,"createDate":"2021-11-25 18:17:36"},"primaryPerson":{"email":"janiseBoehm@test.com","title":"International Brand Strategist","firstName":"Sammy","lastName":"O'Keefe","gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:38.552 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 5999,
+      "createDate": "2021-11-25 18:17:36"
+    },
+    "primaryPerson": {
+      "email": "janiseBoehm@test.com",
+      "title": "International Brand Strategist",
+      "firstName": "Sammy",
+      "lastName": "O'Keefe",
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:38.555 [main] INFO  com.intuit.karate - [print] 5999 
+13:17:38.556 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/5999
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:39.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 709
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:37 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1233
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":5999,"createDate":"2021-11-25T18:17:36.000Z"},"processAsRenewal":"","primaryPerson":{"id":5999,"username":null,"email":"janiseBoehm@test.com","title":"International Brand Strategist","firstName":"Sammy","lastName":"O'Keefe","suffix":null,"gender":"O+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:36","updated_at":"2021-11-25 18:17:36","user_id":null},"primaryPersonMailingAddress":{"id":4369,"personId":5999,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:36","updated_at":"2021-11-25 18:17:36"},"primaryEmailAddress":{"personId":5999,"emailAddress":"janiseBoehm@test.com"},"primaryPersonPhone":{"personId":5999,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:39.268 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 5999,
+      "createDate": "2021-11-25T18:17:36.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 5999,
+      "username": null,
+      "email": "janiseBoehm@test.com",
+      "title": "International Brand Strategist",
+      "firstName": "Sammy",
+      "lastName": "O'Keefe",
+      "suffix": null,
+      "gender": "O+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:36",
+      "updated_at": "2021-11-25 18:17:36",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4369,
+      "personId": 5999,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:36",
+      "updated_at": "2021-11-25 18:17:36"
+    },
+    "primaryEmailAddress": {
+      "personId": 5999,
+      "emailAddress": "janiseBoehm@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 5999,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:39.273 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/5999
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:39.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 688
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:38 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:39.962 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
+13:17:39.974 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:17:40.013 [main] DEBUG com.intuit.karate - request:
+1 > POST https://www.test-insurance.com/api/v1/user
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 517
+1 > Host: www.test-insurance.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"primaryPerson":{"email":"edaCremin@test.com","title":"Central Marketing Architect","firstName":"Roslyn","lastName":"Schoen","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"},"primaryPersonMailingAddress":{"addressType":"China","addressLine1":"123 No where","city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002"},"primaryPersonPhone":{"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"}}
+
+13:17:40.692 [main] DEBUG com.intuit.karate - response time in milliseconds: 679
+1 < 200
+1 < Server: nginx/1.18.0 (Ubuntu)
+1 < Date: Thu, 25 Nov 2021 18:17:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 354
+1 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"account":{"accountId":6000,"createDate":"2021-11-25 18:17:39"},"primaryPerson":{"email":"edaCremin@test.com","title":"Central Marketing Architect","firstName":"Roslyn","lastName":"Schoen","gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01","languagePref":"CH"}}}
+13:17:40.694 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "account": {
+      "accountId": 6000,
+      "createDate": "2021-11-25 18:17:39"
+    },
+    "primaryPerson": {
+      "email": "edaCremin@test.com",
+      "title": "Central Marketing Architect",
+      "firstName": "Roslyn",
+      "lastName": "Schoen",
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01",
+      "languagePref": "CH"
+    }
+  }
+}
+ 
+13:17:40.701 [main] INFO  com.intuit.karate - [print] 6000 
+13:17:40.703 [main] DEBUG com.intuit.karate - request:
+2 > GET https://www.test-insurance.com/api/v1/user/6000
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+2 > Host: www.test-insurance.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:17:41.390 [main] DEBUG com.intuit.karate - response time in milliseconds: 687
+2 < 200
+2 < Server: nginx/1.18.0 (Ubuntu)
+2 < Date: Thu, 25 Nov 2021 18:17:39 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1226
+2 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":{"sessionID":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec","account":{"accountId":6000,"createDate":"2021-11-25T18:17:39.000Z"},"processAsRenewal":"","primaryPerson":{"id":6000,"username":null,"email":"edaCremin@test.com","title":"Central Marketing Architect","firstName":"Roslyn","lastName":"Schoen","suffix":null,"gender":"B+","maritalStatus":"Single","employmentStatus":"student","dateOfBirth":"1990-01-01T00:00:00.000Z","languagePref":"CH","password":null,"processAsRenewal":null,"created_at":"2021-11-25 18:17:39","updated_at":"2021-11-25 18:17:39","user_id":null},"primaryPersonMailingAddress":{"id":4370,"personId":6000,"addressType":"China","addressLine1":"123 No where","addressLine2":null,"addressLine3":null,"city":"Hong Kong","state":"China","postalCode":"12345","countryCode":"002","created_at":"2021-11-25 18:17:39","updated_at":"2021-11-25 18:17:39"},"primaryEmailAddress":{"personId":6000,"emailAddress":"edaCremin@test.com"},"primaryPersonPhone":{"personId":6000,"phoneNumber":"1012023344","phoneExtension":"none","phoneTime":"night","phoneType":"mobile"},"secondaryPerson":[]}}
+13:17:41.392 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": {
+    "sessionID": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec",
+    "account": {
+      "accountId": 6000,
+      "createDate": "2021-11-25T18:17:39.000Z"
+    },
+    "processAsRenewal": "",
+    "primaryPerson": {
+      "id": 6000,
+      "username": null,
+      "email": "edaCremin@test.com",
+      "title": "Central Marketing Architect",
+      "firstName": "Roslyn",
+      "lastName": "Schoen",
+      "suffix": null,
+      "gender": "B+",
+      "maritalStatus": "Single",
+      "employmentStatus": "student",
+      "dateOfBirth": "1990-01-01T00:00:00.000Z",
+      "languagePref": "CH",
+      "password": null,
+      "processAsRenewal": null,
+      "created_at": "2021-11-25 18:17:39",
+      "updated_at": "2021-11-25 18:17:39",
+      "user_id": null
+    },
+    "primaryPersonMailingAddress": {
+      "id": 4370,
+      "personId": 6000,
+      "addressType": "China",
+      "addressLine1": "123 No where",
+      "addressLine2": null,
+      "addressLine3": null,
+      "city": "Hong Kong",
+      "state": "China",
+      "postalCode": "12345",
+      "countryCode": "002",
+      "created_at": "2021-11-25 18:17:39",
+      "updated_at": "2021-11-25 18:17:39"
+    },
+    "primaryEmailAddress": {
+      "personId": 6000,
+      "emailAddress": "edaCremin@test.com"
+    },
+    "primaryPersonPhone": {
+      "personId": 6000,
+      "phoneNumber": "1012023344",
+      "phoneExtension": "none",
+      "phoneTime": "night",
+      "phoneType": "mobile"
+    },
+    "secondaryPerson": [
+    ]
+  }
+}
+ 
+13:17:41.395 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://www.test-insurance.com/api/v1/user/6000
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5OTAsImlhdCI6MTYzNzg2NDIzOX0.G-AlsUxgj8RPdSFzGBUeeyoT91VQ6ZANB46fPzd-zec
+3 > Host: www.test-insurance.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+13:17:42.095 [main] DEBUG com.intuit.karate - response time in milliseconds: 700
+3 < 200
+3 < Server: nginx/1.18.0 (Ubuntu)
+3 < Date: Thu, 25 Nov 2021 18:17:40 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 76
+3 < Connection: keep-alive
+{"meta":{"code":200,"status":"success"},"data":"Record successfuly deleted"}
+13:17:42.096 [main] INFO  com.intuit.karate - [print] {
+  "meta": {
+    "code": 200,
+    "status": "success"
+  },
+  "data": "Record successfuly deleted"
+}
+ 
